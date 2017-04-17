@@ -30,13 +30,13 @@
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2" translatesAutoresizingMaskIntoConstraints="NO" id="ZOQ-Zh-E9Y">
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Flag.png" translatesAutoresizingMaskIntoConstraints="NO" id="ZOQ-Zh-E9Y">
                                             <rect key="frame" x="8" y="0.0" width="70" height="70"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" secondItem="ZOQ-Zh-E9Y" secondAttribute="height" multiplier="1:1" id="pyZ-WO-9uP"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5R-lc-sXE">
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Gulia Is" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N5R-lc-sXE">
                                             <rect key="frame" x="94" y="8" width="250" height="30"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="250" id="wtT-iN-2vW"/>
@@ -80,16 +80,7 @@
                             <constraint firstItem="c74-Jp-WOg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="tpe-1t-oII"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Profile" id="wIw-a2-76c">
-                        <attributedString key="userComments">
-                            <fragment content="Профиль">
-                                <attributes>
-                                    <font key="NSFont" metaFont="smallSystem"/>
-                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                </attributes>
-                            </fragment>
-                        </attributedString>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Profile" id="wIw-a2-76c"/>
                     <connections>
                         <outlet property="fullNameLabel" destination="N5R-lc-sXE" id="jGa-d2-n6g"/>
                         <outlet property="profilePhoto" destination="ZOQ-Zh-E9Y" id="XQq-Yq-XXs"/>
@@ -120,6 +111,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="2" width="2000" height="2000"/>
+        <image name="Flag.png" width="512" height="512"/>
     </resources>
 </document>
